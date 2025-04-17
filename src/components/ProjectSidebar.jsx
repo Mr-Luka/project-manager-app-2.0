@@ -22,7 +22,7 @@ export default function ProjectsSidebar({
                 if(project.id === selectedProjectId) {
                     cssClasses += ' bg-stone-800 text-stone-200'
                 } else {
-                    cssClasses += ' hover:bg-stone-400'
+                    cssClasses += ' text-stone-400'
                 }
                 return(
                     <li key={project.id}><button 
